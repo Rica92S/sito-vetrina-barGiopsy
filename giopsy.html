@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caffetteria Giopsy</title>
+    <link rel="shortcut icon" href="./immagini/CaffetteriaMod.png">
+    <link rel="stylesheet" href="giopsy.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="giopsy.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header container" id="home">
+            <div class="header item1 logo">
+                <img src="./immagini/CaffetteriaMod-removebg-preview.png" alt="Logo">
+            </div>
+
+            <div class="header item1 sx">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#chiSiamo">Chi siamo</a></li>
+                    <li><a href="#servizi">Servizi</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contatti">Contatti</a></li>
+                    <li><a href="#mappa">Mappa</a></li>
+                    <li><a href="#instangram"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+          
+         
+
+            <div class="moveUp"><a href="#home"><i class="fa-regular fa-circle-up"></i></a></div>
+
+
+            <div class="header form" id="headerForm">
+                <form action="#" method="post">
+                    <h1>Inviaci il tuo ordine!</h1>
+
+                    <label for="name">Nome</label>
+                    <input type="text" name="nome" placeholder="Nome" id="nome">
+
+                    <label for="cognome">Cognome</label>
+                    <input type="text" name="cognome" placeholder="Cognome" id="cognome">
+
+
+                    <label for="tel">Recapito telefonico</label>
+                    <input type="text" name="tel" placeholder="Cellulare" id="cellulare">
+
+
+                    <label for="pagamento">Scegli il metodo di pagamento</label>
+                    <select name="pagamento" id="pagamento">Scegli il metodo di pagamento
+                        <option value="Scegli" selected>Scegli
+                        </option>
+                        <option value="Contante">Alla Consegna</option>
+                        <option value="Bonifico">Tramite PostPay</option>
+                        <option value="Accredito">Tramite accredito su c/c</option>
+                    </select>
+
+
+                    <label for="messaggio">Di cosa hai bisogno?</label>
+                    <textarea name="messaggio" id="messaggio"></textarea>
+                    <input type="submit" id="submit">
+
+                </form>
+            </div>
+            <div class="formSubmitted" style="display: none;"><h1 style="margin-left: 30px;">Ti ringraziamo per averci contattati! Ti risponderemo al più presto!</h1></div>
+        </div>
+    </header>
+    <!--close header container-->
+
+    <section id="chiSiamo">
+        <div class="chiSiamo container">
+            <div class="box1">
+                <h1>La Nostra Storia</h1>
+                <p>Da <strong>10 anni</strong> il punto di riferimento del quartiere <strong>Rione Alto</strong> di
+                    Napoli, per chiunque ami gustare un buon caffè che rispecchi la tradizione della nostra amata città!
+                    <br> Nata dalla passione e la dedizione di Rosaria e Francesco, la
+                    caffetteria <strong>Giopsy</strong> è il ritrovo delle persone del posto che da anni lo scelgono per
+                    i tanti servizi offerti. <br> Non solo caffè di qualità ma <strong>colazioni</strong> personalizzate
+                    per occasioni speciali, consegne a domicilio gratuite, vasta scelta di accompagnamento per
+                    l'aperitivo da poter consumare all'aperto con il calore del sole o comodamente a casa! Su
+                    richiesta,<strong>buffet</strong> e <strong>catering </strong>dolce e salato per feste private.
+                    Come?<br> Tramite un semplice messaggio sulla pagina instangram <strong><a
+                            href="#">caffetteria_giopsy</a></strong> o contattando i recapiti telefonici.<br>
+                    La Caffetteria Giopsy consegna anche in zona Vomero, Arenella, Camaldoli e resto della città per
+                    catering eventi.
+                </p>
+            </div>
+            <div class="box2"><button><a href="#contatti">Richiedi informazioni</a></button><i
+                    class="fa-solid fa-circle-arrow-down"></i> </div>
+        </div>
+    </section>
+
+    <!--SERVIZI-->
+    <section id="servizi">
+        <div class="servizi container">
+            <h1>Servizi Offerti</h1>
+            <div class="servizi item">
+                <div class="card">
+                    <img src="./immagini/bread-gb7e7dce6b_640.jpg" alt="colazione">
+                    <p>Colazioni personalizzate</p>
+                </div>
+                <div class="card">
+                    <img src="./immagini/pastiera-gbeb1e9d6f_640.jpg" alt="dessert">
+                    <p>Dolci per festività natalizie</p>
+                </div>
+                <div class="card">
+                    <img src="./immagini/cake-g57fb51327_640.jpg" alt="cake">
+                    <p>Torte di compleanno</p>
+                </div>
+                <div class="card">
+                    <img src="./immagini/happy-birthday-g5a5337ce6_640.jpg" alt="brindisi">
+                    <p>Aperitivo</p>
+                </div>
+                <div class="card">
+                    <img src="./immagini/coffee-g2de97a077_640.jpg" alt="coffee">
+                    <p>Caffetteria</p>
+                </div>
+                <div class="card">
+                    <img src="./immagini/cupcakes-g4082d4ceb_640.jpg" alt="cupcakes">
+                    <p>Buffet e Catering</p>
+                </div>
+                <a href="#contatti">  <button class="call">Fai un ordine</button></a>
+            </div>
+        </div>
+    </section>
+
+    <!--GALLERY-->
+    <section class="gallery_container" id="gallery">
+        <h1>La Nostra Gallery</h1>
+        <ul class="gallery">
+            <li
+                style="background:url(./immagini/ACTL0758.JPG); background-position: center center;background-repeat: no-repeat;background-size: cover;">
+            </li>
+            <li
+                style="background:url(./immagini/AOYS1752.JPG); background-position: center center;background-repeat: no-repeat;background-size: cover;">
+            </li>
+            <li
+                style="background:url(./immagini/BRBB5490.JPG); background-position: center center;background-repeat: no-repeat;background-size: cover;">
+            </li>
+            <li
+                style="background:url(./immagini/COFD3541.JPG); background-position: center center;background-repeat: no-repeat;background-size: cover;">
+            </li>
+            <li
+                style="background:url(./immagini/CWWI3924.JPG); background-position: center center;background-repeat: no-repeat;background-size: cover;">
+            </li>
+            <li
+                style="background:url(./immagini/DHTG6480.JPG); background-position: center center;background-repeat: no-repeat;background-size: cover;">
+            </li>
+            <li
+                style="background:url(./immagini/DRTY1881.JPG); background-position: center center;background-repeat: no-repeat;background-size: cover;">
+            </li>
+            <li
+                style="background:url(./immagini/EHYG5813.JPG); background-position: center center;background-repeat: no-repeat;background-size: cover;">
+            </li>
+            <li
+                style="background:url(./immagini/TSLR4871.JPG); background-position: center center;background-repeat: no-repeat;background-size: cover;">
+            </li>
+            <li
+                style="background:url(./immagini/FAQY6732.JPG); background-position: center center;background-repeat: no-repeat;background-size: cover;">
+            </li>
+            <li
+                style="background:url(./immagini/GIBC9596.JPG); background-position: center center;background-repeat: no-repeat;background-size: cover;">
+            </li>
+            <li
+                style="background:url(./immagini/GREZ0523.JPG); background-position: center center;background-repeat: no-repeat;background-size: cover;">
+            </li>
+            <li
+                style="background:url(./immagini/GUOL6145.JPG); background-position: center center;background-repeat: no-repeat;background-size: cover;">
+            </li>
+            <li
+                style="background:url(./immagini/CWWI3924.JPG); background-position: center center;background-repeat: no-repeat;background-size: cover;">
+            </li>
+            <li
+                style="background:url(./immagini/XSCK5775.JPG); background-position: center center;background-repeat: no-repeat;background-size: cover;">
+            </li>
+            <li style="background:url(./immagini/KQJT2387.JPG); background-position: center center;background-repeat: no-repeat;background-size: cover;"></li>
+            <li style="background:url(./immagini/ù); background-position: center center;background-repeat: no-repeat;background-size: cover;"></li>
+        </ul>
+    </section>
+
+    <!--CONTATTI-->
+    <section class="contatti" id="contatti">
+        <div class="form_contatti">
+            <h1  class="formTitle">Contattaci ed effettua il tuo ordine!</h1>
+            <form action="#" method="post" class="contacts">
+
+                <label for="name">Nome</label>
+                <input type="text" name="nome" placeholder="Nome" id="nome">
+
+                <label for="cognome">Cognome</label>
+                <input type="text" name="cognome" placeholder="Cognome" id="cognome">
+
+                <label for="tel">Recapito telefonico</label>
+                <input type="tel" name="tel" placeholder="Cellulare" id="Cellulare">
+
+                <label for="pagamento">Scegli il metodo di pagamento</label>
+                <select name="pagamento" id="pagamento">Scegli il metodo di pagamento
+                    <option value="Scegli" selected>Scegli
+                    </option>
+                    <option value="Contante">Alla Consegna</option>
+                    <option value="Bonifico">Tramite PostPay</option>
+                    <option value="Accredito">Tramite accredito su c/c</option>
+                </select>
+
+                <label for="messaggio">Di cosa hai bisogno?</label>
+                <textarea name="messaggio" id="messaggioContatti"></textarea>
+                <input type="submit" id="submit">
+            </form>
+        </div>
+        <div class="cellulari">
+            <h2 class="formTitle">Oppure chiamaci ai seguenti numeri per ulteriori informazioni:</h2>
+            <a href="#">555-555-555 <i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#">123-345-776-88<i class="fa-solid fa-phone-flip"></i></a>
+          </div>
+    </section>
+    
+    <!--MAPPA-->
+    <section class="mappa" id="mappa">
+        <h1 class="formTitle">Dove Siamo</h1>
+        <div class="map_container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.54357220494!2d14.219281315346107!3d40.85994377931608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133b08947206d7ff%3A0x6013d1121bcf7f5e!2sVia%20S.%20Giacomo%20dei%20Capri%2C%20154%2C%2080131%20Napoli%20NA!5e0!3m2!1sit!2sit!4v1667811397447!5m2!1sit!2sit" width="100%" height="450" style="border:0; margin:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <!--INSTANGRAM-->
+    <section class="instangram" id="instangram">
+        <h1 class="formTitle"> Seguici sulla nostra pagina instangram per rimanere sempre aggiornato!</h1>
+        <div class="social">
+        <i class="fa-brands fa-instagram"></i>
+        <a href="#">caffetteria_giopsy</a><i class="fa-solid fa-arrow-left"></i>
+    </div>
+    </section>
+</body>
+
+</html>
